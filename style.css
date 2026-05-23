@@ -1,0 +1,1096 @@
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e2b6d6;
+    color: #000007;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-image: url("images/makeup3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50px;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.logo h1 {
+    font-size: 3.2rem;
+    letter-spacing: 0.1px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.tagline {
+    font-size: 0.85rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 35px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-bar {
+  margin-left: auto;
+  align-self: flex-end;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+
+  width: auto;
+  margin-top: 0;
+}
+    
+
+.search-bar input {
+    width: 300px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    max-width: 35vw;
+    min-width: 140px;
+}
+
+.search-bar button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ca4793;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-bar button:hover {
+    background-color: #a93578;
+}
+    .form-container{
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #f3d7ef;
+    border-radius: 15px;
+    text-align: center;
+    }
+ 
+.form-container{
+    width: 350px;
+    background: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+ 
+.form-container h2{
+    text-align: center;
+    color: purple;
+    margin-bottom: 20px;
+}
+ 
+.form-container input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+ 
+.form-container button{
+    width: 100%;
+    padding: 12px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ 
+/* ===== LOGIN & SIGNUP FORMS ===== */
+ 
+body{
+    font-family: Arial, sans-serif;
+    background: #f7d9f2;
+}
+ 
+.form-container{
+    width: 350px;
+    background: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+ 
+.form-container h2{
+    text-align: center;
+    color: purple;
+    margin-bottom: 20px;
+}
+ 
+.form-container input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+ 
+.form-container button{
+    width: 100%;
+    padding: 12px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ 
+/* ===== LOGIN & SIGNUP FORMS ===== */
+ 
+body{
+    font-family: Arial, sans-serif;
+    background: #f7d9f2;
+}
+ 
+.form-container{
+    width: 350px;
+    background: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+ 
+.form-container h2{
+    text-align: center;
+    color: purple;
+    margin-bottom: 20px;
+}
+ 
+.form-container input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+ 
+.form-container button{
+    width: 100%;
+    padding: 12px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ 
+/* ===== LOGIN & SIGNUP FORMS ===== */
+ 
+body{
+    font-family: Arial, sans-serif;
+    background: #f7d9f2;
+}
+ 
+.form-container{
+    width: 350px;
+    background: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+ 
+.form-container h2{
+    text-align: center;
+    color: purple;
+    margin-bottom: 20px;
+}
+ 
+.form-container input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+ 
+.form-container button{
+    width: 100%;
+    padding: 12px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ 
+.form-container button:hover{
+    background: deeppink;
+}
+ 
+.form-container p{
+    text-align: center;
+    margin-top: 15px;
+}
+ 
+.form-container a{
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.form-container a:hover{
+    text-decoration: underline;
+}
+.login-btn{
+ display: block;
+ text-align: center;
+ background: linear-gradient(to right, purple, deeppink);
+ color: white;
+ padding: 14px;
+ border-radius: 10px;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: bold;
+ transition: 0.3s;
+ margin-top: 15px;
+}
+ 
+.signup-btn:hover{
+ transform: scale(1.03);
+ opacity: 0.9;
+}
+.signup-btn{
+ display: block;
+ text-align: center;
+ background: linear-gradient(to right, purple, deeppink);
+ color: white;
+ padding: 14px;
+ border-radius: 10px;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: bold;
+ transition: 0.3s;
+ margin-top: 15px;
+}
+ 
+.signup-btn:hover{
+ transform: scale(1.03);
+ opacity: 0.9;
+}
+.login-btn{
+ display: block;
+ text-align: center;
+ background: linear-gradient(to right, purple, deeppink);
+ color: white;
+ padding: 14px;
+ border-radius: 10px;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: bold;
+ transition: 0.3s;
+ margin-top: 15px;
+}
+ 
+.login-btn:hover{
+ transform: scale(1.03);
+ opacity: 0.9;
+}
+ /* ===== ACCOUNT BUTTONS ===== */
+ 
+.account-buttons{
+    display: flex;
+    gap: 12px;
+    
+    padding: absolute;
+    top: 25px;
+    right: 30px;
+}
+ 
+.account-buttons a{
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 15px;
+}
+ 
+/* LOGIN BUTTON */
+ 
+.login-icon{
+    background: white;
+    color: purple;
+}
+ 
+.login-icon:hover{
+    background: #f3d7ef;
+    transform: translateY(-2px);
+}
+ 
+/* SIGN UP BUTTON */
+ 
+.signup-icon{
+    background: linear-gradient(to right, purple, deeppink);
+    color: white;
+}
+ 
+.signup-icon:hover{
+    transform: translateY(-2px) scale(1.05);
+    opacity: 0.9;
+}
+ 
+ 
+ 
+/* ===== MAIN CONTENT ===== */
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.subtitle {
+    color: #310b2b;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* ===== BANNER ===== */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    background: #000;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    z-index: 1;
+}
+
+.banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(13, 13, 14, 0.45);
+    z-index: 2;
+}
+
+.banner-text {
+    position: relative;
+    z-index: 3;
+    max-width: 700px;
+    width: 90%;
+    color: white;
+}
+
+.banner-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+/* ===== BUTTONS ===== */
+.btn-primary {
+    display: inline-block;
+    background: #c76487;
+    color: #fffefe;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background: #8b63c0;
+    transform: scale(1.05);
+}
+
+.btn-add {
+    background: #db678a;
+    color: #fdfdfd;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+    margin-top: 0.5rem;
+}
+
+.btn-add:hover {
+    background: #c971c9;
+}
+
+/* ===== FEATURES (index) ===== */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: #9c629e;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(168, 128, 179, 0.08);
+    flex: 1 1 250px;
+    max-width: 280px;
+    min-height: 320px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.category-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+.category-bg h3,
+.category-bg p {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.category-bg h3 {
+    margin-bottom: 0.5rem;
+}
+
+.category-bg p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.lipstick-bg {
+    background-image: url("videos/Lipstick/lipstick1.jpg");
+}
+
+.eyeshadow-bg {
+    background-image: url("videos/EyeShadow/eyeshadow1.jpg");
+}
+
+.skincare-bg {
+    background-image: url("videos/SkinCare/skincare.jpg");
+}
+
+/* ===== CONTENT PAGES: LIPSTICKS, EYESHADOWS, SKINCARE ===== */
+.page-content {
+    text-align: center;
+    padding: 40px;
+    flex: 1;
+}
+
+.page-content h2 {
+    color: #a365c7;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #8959b6;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+.page-content img {
+ width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 0;  
+}
+
+.page-content p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.lipstick-video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 8px;
+}
+
+.video-slider {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.video-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ca4793;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.video-buttons button:hover {
+    background-color: #a93578;
+}
+
+/* ===== ABOUT US PAGE ===== */
+.about-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.mission-vision .card {
+    background: #b875b4;
+    border-left: 5px solid #c73154;
+    padding: 1.5rem;
+    border-radius: 10px;
+    flex: 1 1 280px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.mission-vision h3 {
+    color: #25010e;
+    margin-bottom: 0.5rem;
+}
+
+.team h3 {
+    color: #120113;
+    margin-bottom: 1rem;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.team-member {
+    background: #a26aac;
+    padding: 1.2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    flex: 1 1 220px;
+    max-width: 260px;
+    transition: transform 0.3s ease, box-shadow o.3s ease;
+    overflow: hidden;
+}
+.team-member:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px; rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.team-member h4 {
+    color: #14011d;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+.team-member p {
+    font-size: 1rem;
+    color: #1f0118;
+}
+
+/* ===== PRODUCTS PAGE ===== */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.product-card {
+    background: #aa73af;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(22, 2, 27, 0.08);
+    width: 260px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+}
+
+.product-card img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+}
+
+.product-card h3 {
+    color: #29063b;
+    font-size: 1.1rem;
+}
+
+.price {
+    font-weight: 700;
+    color: #5f0e47;
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+}
+/* ===== SHOPPING CART ===== */
+
+.cart {
+    margin: 5px auto;
+    background: linear-gradient(135deg, #a55ecc, #f8e6f2);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    max-width: 420px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cart:hover {
+    transform: translateY(-5px);
+}
+
+.cart h2 {
+    color: #1d0112;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-family: Georgia, serif;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.cart li {
+    background: #ffffff;
+    margin-bottom: 12px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    color: #8517cf;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.cart-item{
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.remove-btn{
+    background: rgb(132, 18, 170);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove-btn:hover{
+    opacity: 0.8;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2a003f;
+}
+
+.total span {
+    color: #980a5d;
+
+    .payment-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-input{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#pay-btn{
+    background: purple;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#pay-btn:hover{
+    opacity: 0.9;
+}
+}/* ===== ADD TO CART BUTTON ===== */
+
+.btn-add {
+    background: linear-gradient(135deg, #ff4fa3, #b84dff);
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(184, 77, 255, 0.3);
+}
+
+.btn-add:hover {
+    transform: translateY(-3px) scale(1.05);
+    background: linear-gradient(135deg, #ff2f92, #9b2dff);
+    box-shadow: 0 8px 20px rgba(184, 77, 255, 0.5);
+}
+
+/* ===== CONTACT US PAGE ===== */
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.contact-info,
+.contact-form {
+    background: #a16a9f;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    flex: 1 1 300px;
+}
+
+.contact-info h3 {
+    color: #180109;
+    margin: 1rem 0 0.5rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-form h3 {
+    color: #0c0004;
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #e9c0d8;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+/* ===== FEEDBACK FORM PAGE ===== */
+.feedback-form-container {
+    background: #b67aa7;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.feedback-form-container label {
+    display: block;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: #140113;
+}
+
+.feedback-form-container input,
+.feedback-form-container select,
+.feedback-form-container textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ddc0cb;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.feedback-form-container select {
+    background: #e7d5de;
+}
+
+.feedback-form-container textarea {
+    resize: vertical;
+}
+
+.feedback-form-container .btn-primary {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #100a13;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.2rem 0;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+    .page-content img {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-content img {
+        width: 200px;
+        height: 200px;
+    }
+}
+    nav ul {
+        justify-content: center;
+        margin-top: 0.8rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .search-bar {
+        justify-content: center;
+    }
+
+    .banner {
+        min-height: 250px;
+        padding: 0 1rem;
+    }
+
+    .banner-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 1.5rem 1rem;
+    }
+
+    .product-card {
+        flex: 1 1 160px;
+    }
+
+    .page-content img {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    nav ul {
+        gap: 0.6rem;
+    }
+
+    nav ul li a {
+        font-size: 0.85rem;
+    }
+
+    .logo h1 {
+        font-size: 1.8rem;
+    }
+
+    .features {
+        gap: 1rem;
+    }
+
+    .search-bar input {
+        width: 220px;
+    }
+
+    .page-content {
+        padding: 25px 15px;
+    }
+
+    .page-content img {
+        width: 200px;
+        height: 200px;
+    }
+}

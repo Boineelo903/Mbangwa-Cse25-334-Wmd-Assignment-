@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Lips - Nolo Cosmetics</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Nolo Cosmetics</h1>
+        <p class="tagline">Unleash Your beauty</p>
+    </div>
+
+    <nav>
+        <ul>
+             
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Feedback Form.html">Feedback</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+           
+ 
+        </ul>
+         <form class="search-bar" action="Products.html" method="get">
+        <input type="search" name="search" placeholder="Search products..." />
+        <button type="submit">Search</button>
+    </form>
+    </nav>
+</header>
+
+<section class="page-content">
+    <h2>Lips</h2>
+    <p>Explore our long-lasting, hydrating lipstick collection in beautiful shades for every occasion.</p>
+
+    <video class="lipstick-video" autoplay muted loop playsinline>
+        <source src="videos/Lipstickvideo.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstick4.jpg" alt="Classic Red Lipstick" />
+            <h3>Classic Red</h3>
+            <p class="price">P120</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstick5.jpg" alt="Glam Gals Pink Lipstick" />
+            <h3>Glam Gals Pink</h3>
+            <p class="price">P110</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstick6.jpg" alt="Nude Glow Lipstick" />
+            <h3>Nude Glow</h3>
+            <p class="price">P115</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstick7.jpg" alt="Berry Crush Lipstick" />
+            <h3>Berry Crush</h3>
+            <p class="price">P130</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstick8.jpg" alt="Coral Shine Lipstick" />
+            <h3>Coral Shine</h3>
+            <p class="price">P125</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstickb.jpg" alt="Bogenia Velvet Creamy Matte Lipstick" />
+            <h3>Bogenia Velvet Creamy Matte</h3>
+            <p class="price">P135</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipsticka.jpg" alt="Mocha Matte Lipstick" />
+            <h3>Mocha Matte</h3>
+            <p class="price">P118</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstickc.jpg" alt="Creamy Pop Lipstick" />
+            <h3>Creamy Pop</h3>
+            <p class="price">P128</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/Lipstick/lipstickd.jpg" alt="Elixir Velvet Matte Lipstick" />
+            <h3>Elixir Velvet Matte</h3>
+            <p class="price">P122</p>
+             <button class="btn-add">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<div class="cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+
+    <div class="total">
+        Total: P<span id="total">0</span>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Nolo Cosmetics. All rights reserved.</p>
+     <p>Follow us on Instagram &amp; Facebook @nolocosmetics</p>
+</footer>
+<script src="cart.js"></script>
+
+</body>
+</html>

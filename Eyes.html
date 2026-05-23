@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bold Eyes - Nolo Cosmetics</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Nolo Cosmetics</h1>
+        <p class="tagline">Unleash Your beauty</p>
+    </div>
+
+    <nav>
+        <ul>
+           
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Feedback Form.html">Feedback</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            
+ 
+        </ul>
+         <form class="search-bar" action="Products.html" method="get">
+        <input type="search" name="search" placeholder="Search products..." />
+        <button type="submit">Search</button>
+    </form>
+    </nav>
+</header>
+
+<section class="page-content">
+    <h2>Bold Eyeshadows</h2>
+    <p>Explore our highly pigmented eyeshadow palettes, perfect for natural, bold, and glamorous looks.</p>
+    
+    <video class="eyeshadows-video" autoplay muted loop playsinline>
+        <source src="videos/Eyeshadow-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow.jpg" alt="Glitter chrome Eyeshadow" />
+            <h3>Glitter chrome</h3>
+            <p class="price">P150</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow2.jpg" alt="Rose Gold Eyeshadow" />
+            <h3>Rose Gold</h3>
+            <p class="price">P145</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow3.jpg" alt="Smoky Night Eyeshadow" />
+            <h3>Smoky Night</h3>
+            <p class="price">P160</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow4.jpg" alt="Bronze Beauty Eyeshadow" />
+            <h3>Bronze Beauty</h3>
+            <p class="price">P155</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow5.jpg" alt="Purple Dream Eyeshadow" />
+            <h3>Purple Dream</h3>
+            <p class="price">P165</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow6.jpg" alt="Soft Nude Eyeshadow" />
+            <h3>Soft Nude</h3>
+            <p class="price">P140</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow7.jpg" alt="Sunset Blend Eyeshadow" />
+            <h3>Sunset Blend</h3>
+            <p class="price">P170</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow8.jpg" alt="Chocolate Matte Eyeshadow" />
+            <h3>Chocolate Matte</h3>
+            <p class="price">P150</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="videos/EyeShadow/eyeshadow9.jpg" alt="Glitter Pop Eyeshadow" />
+            <h3>Glitter Pop</h3>
+            <p class="price">P175</p>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<div class="cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+
+    <div class="total">
+        Total: P<span id="total">0</span>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Nolo Cosmetics. All rights reserved.</p>
+     <p>Follow us on Instagram &amp; Facebook @nolocosmetics</p>
+</footer>
+<script src="cart.js"></script>
+
+</body>
+</html>
